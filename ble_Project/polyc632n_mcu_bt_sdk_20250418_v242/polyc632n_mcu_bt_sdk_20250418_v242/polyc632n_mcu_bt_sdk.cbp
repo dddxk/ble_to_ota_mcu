@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="polyc632n_mcu_bt_sdk" />
+		<Option compiler="q32s_lto_compiler" />
+		<Build>
+			<Target title="Release">
+				<Option output="cpu/bd19/tools/sdk.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="q32s_lto_compiler" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wcast-align" />
+					<Add option="-Wundef" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-integrated-as" />
+					<Add option="-O0" />
+					<Add option="-flto" />
+					<Add option="-fallow-pointer-null" />
+					<Add option="-Wincompatible-pointer-types" />
+					<Add option="-fprefer-gnu-section" />
+					<Add option="-Wframe-larger-than=256" />
+					<Add option="-Wreturn-type" />
+					<Add option="-Wimplicit-function-declaration" />
+					<Add option="-fms-extensions" />
+					<Add option="-DSUPPORT_MS_EXTENSIONS" />
+					<Add option="-DCONFIG_RELEASE_ENABLE" />
+					<Add option="-DCONFIG_CPU_BD19" />
+					<Add option="-DCONFIG_NEW_BREDR_ENABLE" />
+					<Add option="-DCONFIG_FREE_RTOS_ENABLE" />
+					<Add option="-DCONFIG_EQ_SUPPORT_ASYNC" />
+					<Add option="-DEQ_DESIGN_IN_MASK" />
+					<Add option="-DSINE_MAKE_IN_MASK" />
+					<Add option="-DCONFIG_MMU_ENABLE" />
+					<Add option="-DCONFIG_AEC_M=256" />
+					<Add option="-DCONFIG_AUDIO_ONCHIP" />
+					<Add option="-DCONFIG_MEDIA_NEW_ENABLE" />
+					<Add option="-D__GCC_Q32S__" />
+					<Add option="-DCONFIG_NEW_ECC_ENABLE" />
+					<Add option="-DCONFIG_CRYPTO_TOOLBOX_OSIZE_IN_MASKROM" />
+					<Add option="-DEVENT_HANDLER_NUM_CONFIG=2" />
+					<Add option="-DEVENT_TOUCH_ENABLE_CONFIG=0" />
+					<Add option="-DEVENT_POOL_SIZE_CONFIG=256" />
+					<Add option="-DCONFIG_EVENT_KEY_MAP_ENABLE=0" />
+					<Add option="-DTIMER_POOL_NUM_CONFIG=10" />
+					<Add option="-DAPP_ASYNC_POOL_NUM_CONFIG=0" />
+					<Add option="-DVFS_ENABLE=1" />
+					<Add option="-DUSE_SDFILE_NEW=1" />
+					<Add option="-DVFS_FILE_POOL_NUM_CONFIG=0" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DVM_MAX_SIZE_CONFIG=16*1024" />
+					<Add option="-DVM_ITEM_MAX_NUM=128" />
+					<Add option="-DCONFIG_TWS_ENABLE" />
+					<Add option="-DCONFIG_SPP_AND_LE_CASE_ENABLE" />
+					<Add option="-DCONFIG_TRANSFER_ENABLE" />
+					<Add option="-DCONFIG_LITE_AEC_ENABLE=0" />
+					<Add option="-DCONFIG_LITE_AUDIO" />
+					<Add option="-DCONFIG_LMP_RESET_ENABLE" />
+					<Add option="-DCONFIG_LMP_REFRESH_ENCRYPTION_KEY_ENABLE" />
+					<Add option="-DCONFIG_LINK_DISTURB_SCAN_ENABLE=0" />
+					<Add option="-DCONFIG_BTCTRLER_TASK_DEL_ENABLE" />
+					<Add option="-DCONFIG_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_OTA_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_ITEM_FORMAT_VM" />
+					<Add option="-DTCFG_APP_BT_EN=1" />
+					<Add option="-DUSB_PC_NO_APP_MODE" />
+					<Add option="-D__LD__" />
+					<Add directory="include_lib" />
+					<Add directory="include_lib/driver" />
+					<Add directory="include_lib/driver/device" />
+					<Add directory="include_lib/driver/cpu/bd19" />
+					<Add directory="include_lib/system" />
+					<Add directory="include_lib/system/generic" />
+					<Add directory="include_lib/system/device" />
+					<Add directory="include_lib/system/fs" />
+					<Add directory="include_lib/system/ui" />
+					<Add directory="include_lib/btctrler" />
+					<Add directory="include_lib/btctrler/port/bd19" />
+					<Add directory="include_lib/update" />
+					<Add directory="include_lib/agreement" />
+					<Add directory="include_lib/btstack/third_party/common" />
+					<Add directory="include_lib/btstack/third_party/rcsp" />
+					<Add directory="include_lib/media/media_new" />
+					<Add directory="include_lib/media/media_new/media" />
+					<Add directory="include_lib/media/media_new/media/cpu/bd19" />
+					<Add directory="include_lib/media/media_new/media/cpu/bd19/asm" />
+					<Add directory="apps/spp_and_le/include" />
+					<Add directory="apps/spp_and_le/board/bd19" />
+					<Add directory="apps/common" />
+					<Add directory="apps/common/device" />
+					<Add directory="apps/common/include" />
+					<Add directory="apps/common/power_manage" />
+					<Add directory="cpu/bd19" />
+					<Add directory="apps/common/third_party_profile/jieli" />
+					<Add directory="apps/common/third_party_profile/jieli/JL_rcsp" />
+					<Add directory="apps/common/third_party_profile/jieli/online_db" />
+					<Add directory="apps/common/third_party_profile/common" />
+					<Add directory="include_lib/ai_stack/JL_rcsp" />
+					<Add directory="include_lib/btstack" />
+					<Add directory="apps/common/third_party_profile/jieli/JL_rcsp/bt_trans_data" />
+					<Add directory="apps/common/third_party_profile/jieli/JL_rcsp/rcsp_updata" />
+					<Add directory="apps/common/third_party_profile/jieli/gatt_common" />
+					<Add directory="apps/common/third_party_profile/Tecent_LL/include" />
+					<Add directory="apps/common/third_party_profile/Tecent_LL/tecent_ll_demo" />
+					<Add directory="apps/spp_and_le/examples/ll_sync" />
+					<Add directory="apps/common/cJSON" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/app/demo" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/app/product_test" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/app/uart_common" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/extern_components/mbedtls" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/port" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/sdk/include" />
+					<Add directory="apps/common/third_party_profile/tuya_protocol/sdk/lib" />
+					<Add directory="apps/spp_and_le/examples/tuya" />
+					<Add directory="apps/common/third_party_profile/hilink_protocol" />
+					<Add directory="apps/common/third_party_profile/hilink_protocol/mbedtls_protocol" />
+					<Add directory="apps/common/third_party_profile/hilink_protocol/mbedtls_protocol/mbedtls" />
+					<Add directory="apps/common/third_party_profile/hilink_protocol/mbedtls_protocol/mbedtls/configs" />
+					<Add directory="apps/common/third_party_profile/hilink_protocol/mbedtls_protocol/mbedtls/psa" />
+					<Add directory="apps/spp_and_le/examples/hilink" />
+					<Add directory="cpu/bd19/audio_encode" />
+					<Add directory="cpu/bd19/audio_decode" />
+					<Add directory="apps/common/audio" />
+					<Add directory="apps/common/device/usb" />
+					<Add directory="apps/common/device/usb/device" />
+					<Add directory="apps/common/device/usb/host" />
+					<Add directory="apps/polyc_code" />
+					<Add directory="apps/polyc_code/driver" />
+					<Add directory="apps/user_code" />
+					<Add directory="apps/OTA_code" />
+					<Add directory="apps/user_code/TM1628A" />
+					<Add directory="apps/user_code/key_drv" />
+					<Add directory="apps/user_code/AHT20" />
+				</Compiler>
+				<Linker>
+					<Add option="--plugin-opt=-inline-threshold=5" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="--plugin-opt=-inline-normal-into-special-section=true" />
+					<Add option="--plugin-opt=-dont-used-symbol-list=malloc,free,sprintf,printf,puts,putchar" />
+					<Add option="--plugin-opt=-warn-stack-size=256" />
+					<Add option="--sort-common" />
+					<Add option="--dont-complain-call-overflow" />
+					<Add option="--gc-sections" />
+					<Add option="--start-group" />
+					<Add option="cpu/bd19/liba/cpu.a" />
+					<Add option="cpu/bd19/liba/system.a" />
+					<Add option="cpu/bd19/liba/btstack.a" />
+					<Add option="cpu/bd19/liba/btctrler.a" />
+					<Add option="cpu/bd19/liba/agreement.a" />
+					<Add option="cpu/bd19/liba/rcsp_stack.a" />
+					<Add option="cpu/bd19/liba/media.a" />
+					<Add option="cpu/bd19/liba/media_app.a" />
+					<Add option="cpu/bd19/liba/lc3_codec_lib.a" />
+					<Add option="cpu/bd19/liba/usbc_codec_lib.a" />
+					<Add option="cpu/bd19/liba/lib_adpcm_ima_code.a" />
+					<Add option="cpu/bd19/liba/wav_dec_lib.a" />
+					<Add option="cpu/bd19/liba/wtgv2_dec_lib.a" />
+					<Add option="cpu/bd19/liba/opus_enc_lib.a" />
+					<Add option="cpu/bd19/liba/update.a" />
+					<Add option="cpu/bd19/liba/lib_polyc3.a" />
+					<Add option="--end-group" />
+					<Add option="-Tcpu/bd19/sdk.ld" />
+					<Add option="-M=cpu/bd19/tools/sdk.map" />
+					<Add library="C:/JL/pi32/q32s-lib/libm.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add before="$compiler $options $includes -E -P cpu\bd19\tools\download.c -o cpu\bd19\tools\download.bat" />
+					<Add before="tools\utils\fixbat.exe cpu\bd19\tools\download.bat" />
+					<Add before="$compiler $options $includes -E -P cpu\bd19\burnfile_1to8.c -o cpu\bd19\tools\download\data_trans\burnfile_1to8.bat" />
+					<Add after="cpu\bd19\tools\download.bat sdk" />
+					<Add after="cpu\bd19\tools\download\data_trans\burnfile_1to8.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="apps/OTA_code/polyc_buffer_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/OTA_code/polyc_buffer_manage.h" />
+		<Unit filename="apps/OTA_code/xmodem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/OTA_code/xmodem.h" />
+		<Unit filename="apps/polyc_code/driver/app_config.h" />
+		<Unit filename="apps/polyc_code/driver/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_adc.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_client.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_nonconn_rx_tx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_nonconn_rx_tx.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_ble_server.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_charge.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_gpio.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_memory.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_pwm.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_spi.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_timer.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_uart.h" />
+		<Unit filename="apps/polyc_code/driver/virtual_mcu_wakeup.h" />
+		<Unit filename="apps/polyc_code/virtual_mcu_bt_communication.h" />
+		<Unit filename="apps/polyc_code/virtual_mcu_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/polyc_code/virtual_mcu_main.h" />
+		<Unit filename="apps/user_code/AHT20/AHT20_commu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/AHT20/AHT20_commu.h" />
+		<Unit filename="apps/user_code/TM1628A/driver_ic_1628.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/TM1628A/driver_ic_1628.h" />
+		<Unit filename="apps/user_code/key_drv/polyc_iokey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/key_drv/polyc_iokey.h" />
+		<Unit filename="apps/user_code/user_mcu_adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_adc.h" />
+		<Unit filename="apps/user_code/user_mcu_ble_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_ble_client.h" />
+		<Unit filename="apps/user_code/user_mcu_ble_nonconn_rx_tx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_ble_nonconn_rx_tx.h" />
+		<Unit filename="apps/user_code/user_mcu_ble_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_ble_server.h" />
+		<Unit filename="apps/user_code/user_mcu_charge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_charge.h" />
+		<Unit filename="apps/user_code/user_mcu_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_demo.h" />
+		<Unit filename="apps/user_code/user_mcu_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_gpio.h" />
+		<Unit filename="apps/user_code/user_mcu_iic_soft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_iic_soft.h" />
+		<Unit filename="apps/user_code/user_mcu_memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_memory.h" />
+		<Unit filename="apps/user_code/user_mcu_pulse_cnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_pulse_cnt.h" />
+		<Unit filename="apps/user_code/user_mcu_pwm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_pwm.h" />
+		<Unit filename="apps/user_code/user_mcu_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_spi.h" />
+		<Unit filename="apps/user_code/user_mcu_timer_cap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_timer_cap.h" />
+		<Unit filename="apps/user_code/user_mcu_timer_cap_433.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_timer_cap_433.h" />
+		<Unit filename="apps/user_code/user_mcu_uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_uart.h" />
+		<Unit filename="apps/user_code/user_mcu_wakeup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apps/user_code/user_mcu_wakeup.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

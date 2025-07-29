@@ -1,0 +1,6 @@
+
+lib_polyc3.a
+对应的目录为polyc632n_mcu_bt_sdk\cpu\bd19\liba
+
+virtual_mcu_bt_communication.h
+对应的目录为polyc632n_mcu_bt_sdk\apps\polyc_code

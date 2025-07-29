@@ -1,0 +1,11 @@
+.\objects\hal_crc.o: ..\Device\MM32SPIN0280\HAL_Lib\Src\hal_crc.c
+.\objects\hal_crc.o: ..\Device\MM32SPIN0280\HAL_Lib\Inc\hal_crc.h
+.\objects\hal_crc.o: ..\Device\MM32SPIN0280\Include\types.h
+.\objects\hal_crc.o: D:\Keil5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_crc.o: D:\Keil5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_crc.o: ..\Device\MM32SPIN0280\Include\reg_common.h
+.\objects\hal_crc.o: ..\Device\CMSIS\KEIL_Core\core_cm0.h
+.\objects\hal_crc.o: ..\Device\CMSIS\KEIL_Core\cmsis_version.h
+.\objects\hal_crc.o: ..\Device\CMSIS\KEIL_Core\cmsis_compiler.h
+.\objects\hal_crc.o: ..\Device\CMSIS\KEIL_Core\cmsis_armcc.h
+.\objects\hal_crc.o: ..\Device\MM32SPIN0280\Include\reg_crc.h

@@ -1,0 +1,11 @@
+.\objects\hal_dma.o: ..\Device\MM32SPIN0280\HAL_Lib\Src\hal_dma.c
+.\objects\hal_dma.o: ..\Device\MM32SPIN0280\Include\types.h
+.\objects\hal_dma.o: D:\Keil5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_dma.o: D:\Keil5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_dma.o: ..\Device\MM32SPIN0280\HAL_Lib\Inc\hal_dma.h
+.\objects\hal_dma.o: ..\Device\MM32SPIN0280\Include\reg_common.h
+.\objects\hal_dma.o: ..\Device\CMSIS\KEIL_Core\core_cm0.h
+.\objects\hal_dma.o: ..\Device\CMSIS\KEIL_Core\cmsis_version.h
+.\objects\hal_dma.o: ..\Device\CMSIS\KEIL_Core\cmsis_compiler.h
+.\objects\hal_dma.o: ..\Device\CMSIS\KEIL_Core\cmsis_armcc.h
+.\objects\hal_dma.o: ..\Device\MM32SPIN0280\Include\reg_dma.h
